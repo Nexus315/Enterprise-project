@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Glenquarie Morning Kick Cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="global-header">
+        <div class="logo">
+        <h1>Morning Kick Cafe</h1>
+        </div>
+        <nav aria-label="Main Navigation"
+        <ul class=" Nav-links"
+        <li><a href= "index.html" class= "active">Home</a></li>
