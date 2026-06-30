@@ -25,35 +25,38 @@
         </nav>
     </header>
 
-<main>
+
    
 
 
   
 
-    <header>
-        </main>
-            <section class ="slider container">
-                <button class="slider-btn prev" aria-label="Previous Slide>"&lt; button>
+    
+            <section class ="slider-container">
+                <button class="slider-btn prev" aria-label="Previous Slide">&lt ;</button>
                     <div class = "slider-frame">
-                        <img src="Topical French Toast.jpg" alt Tropical French Toast dish class= "slider-img" 
+                        <img src="Topical French Toast.jpg" alt="Topical French Toast dish" class="slider-img">
                     div>
-            <button class="slider-btn next" aria-label="Next Slide" &gt; button>
+            <button class="slider-btn next" aria-label="Next Slide">&gt ; </button>
 
              </section>
 
              <section class= "cafe-intro">
                 <h2>Fuel your working day at Morning Kick</h2>
                 <p>Fast paced mornings? Need a quiet and cozy place to study? Just grabbing a quick bite? Craving breakfast at lunchtime?</p>
-                <p2>Morning Kick cafe Proudly serves the local Macquarifields Community offering a local and fun expereince for everyone and their families!</p2>
+                <p>Morning Kick cafe Proudly serves the local Macquarifields Community offering a local and fun expereince for everyone and their families!</p>
              </section>
 
 
-             <section>
-           
-                
-            
+             <section> 
+       
+        <footer class= "global-footer">
+            <p>&copy ; 2026 Morning Kick Cafe. All rights reserved.</p>
+        </footer>
 
+ 
+            </body>
+       </html>
            
 
   
