@@ -11,8 +11,8 @@
         <div class="logo">
         <h1>Morning Kick Cafe</h1>
         </div>
-        <nav aria-label="Main Navigation"
-       class=" nav-links" > </ul>
+        <nav aria-label="Main Navigation">
+       <ul class= " nav-links" >
         <li><a href= "index.html" class= "active">Home</a></li>
         <li><a href="menu.html">Menu</a></li>
                 <li><a href="about.html">About Us</a></li>
@@ -25,11 +25,41 @@
         </nav>
     </header>
 
-<Home>
+<main>
    
-    <img src="Topical French Toast"
+
+
+  
+
+    <header>
+        </main>
+            <section class ="slider container">
+                <button class="slider-btn prev" aria-label="Previous Slide>"&lt; button>
+                    <div class = "slider-frame">
+                        <img src="Topical French Toast.jpg" alt Tropical French Toast dish class= "slider-img" 
+                    div>
+            <button class="slider-btn next" aria-label="Next Slide" &gt; button>
+
+             </section>
+
+             <section class= "cafe-intro">
+                <h2>Fuel your working day at Morning Kick</h2>
+                <p>Fast paced mornings? Need a quiet and cozy place to study? Just grabbing a quick bite? Craving breakfast at lunchtime?</p>
+                <p2>Morning Kick cafe Proudly serves the local Macquarifields Community offering a local and fun expereince for everyone and their families!</p2>
+             </section>
+
+
+             <section>
+           
+                
+            
+
+           
+
+  
 
 
 
-</Home>
+
+
 
