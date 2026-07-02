@@ -9,12 +9,12 @@
 <body>
     <header class="global-header">
         <div class="logo">
-        <h1>Morning Kick Cafe</h1>
+            <h1>Morning Kick Cafe</h1>
         </div>
         <nav aria-label="Main Navigation">
-       <ul class= " nav-links" >
-        <li><a href= "index.html" class= "active">Home</a></li>
-        <li><a href="menu.html">Menu</a></li>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="location.html">Location</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -25,41 +25,71 @@
         </nav>
     </header>
 
+    <main>
+        <section class="slider-container" aria-label="Featured Dishes Slider">
+            <button class="slider-btn prev" id="prevBtn" aria-label="Previous Slide">&lt ;</button>
+            
+            <div class="slider-frame">
+                <div class="slide active">
+                    <img src="Topical French Toast.jpg" alt="Topical french Toast" class="slider-img">
+                    <div class="slide-caption">Signature Morning French Toast</div>
+                </div>
+                <div class="slide">
+                    <img src="Freshly brewed espresso cup.jpg" alt="Freshly brewed espresso cup" class="slider-img">
+                    <div class="slide-caption">Premium Barista Crafted Coffee</div>
+                </div>
+                <div class="slide">
+                    <img src="churros.jpg" alt="Delicious chocolate dip churros" class="slider-img">
+                    <div class="slide-caption">Delicious chocolate dip churros</div>
+                </div>
+            </div>
 
-   
+            <button class="slider-btn next" id="nextBtn" aria-label="Next Slide">&gt ;</button>
+        </section>
+
+        <section class="cafe-intro">
+            <h2>Fuel your working day at Morning Kick</h2>
+            <p>Fast paced mornings? Need a quiet and cozy place to study? Just grabbing a quick bite? Craving breakfast at lunchtime?</p>
+            <p>Morning Kick Cafe proudly serves the local Macquarie Fields community, offering a fun experience for everyone and their families!</p>
+        </section>
+    </main>
+
+    <footer class="global-footer">
+        <p>&copy ; 2026 Morning Kick Cafe. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
 
-  
+<section class="quick-info-grid" aria-label="Quick Information Dashboard">
+    <div class="info-card">
+        <h3>⏰Commuter Express Hours</h3>
+        <p><strong>Monday-Sunday:</strong> 7:30AM-4PM</P>
+            <span class="tag">Early Opening!</span>
+            
+            <div>
+            <div class="info-card">
+                <h3>Find us Fast</h3>
+                <p>Conveniently located near Glenquarie Town Centre, Macquarie Fields. Perfect stop before the train</p>
+                <a href="location.html" class= "cta-link" > View Map & Direction →</a>
+            </div>
+            <div class = "info-card"> 
+                <h3>Skip the Queue</h3>
+                <p>Heading to school or work? Browse our menu on the go and place your order ahead online</p>
+                <a href="order.html" class="cta-btn"> Order Ahead Now</a>
+            </div>
+        </section>
+            
 
-    
-            <section class ="slider-container">
-                <button class="slider-btn prev" aria-label="Previous Slide">&lt ;</button>
-                    <div class = "slider-frame">
-                        <img src="Topical French Toast.jpg" alt="Topical French Toast dish" class="slider-img">
-                    div>
-            <button class="slider-btn next" aria-label="Next Slide">&gt ; </button>
-
-             </section>
-
-             <section class= "cafe-intro">
-                <h2>Fuel your working day at Morning Kick</h2>
-                <p>Fast paced mornings? Need a quiet and cozy place to study? Just grabbing a quick bite? Craving breakfast at lunchtime?</p>
-                <p>Morning Kick cafe Proudly serves the local Macquarifields Community offering a local and fun expereince for everyone and their families!</p>
-             </section>
 
 
-             <section> 
-       
-        <footer class= "global-footer">
-            <p>&copy ; 2026 Morning Kick Cafe. All rights reserved.</p>
-        </footer>
 
- 
-            </body>
-       </html>
-           
 
-  
+
+
+
 
 
 
