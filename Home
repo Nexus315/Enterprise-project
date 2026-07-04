@@ -8,9 +8,11 @@
 </head>
 <body>
     <header class="global-header">
-        <div class="logo">
-            <h1>Morning Kick Cafe</h1>
+        <div class="logo-container">
+            <img src="logo.jpg" alt="Morning Kick Cafe Logo" class="header-logo">
+            <h1 class="site-title">Morning Kick Cafe</h1>
         </div>
+
         <nav aria-label="Main Navigation">
             <ul class="nav-links">
                 <li><a href="index.html" class="active">Home</a></li>
@@ -52,6 +54,26 @@
             <p>Fast paced mornings? Need a quiet and cozy place to study? Just grabbing a quick bite? Craving breakfast at lunchtime?</p>
             <p>Morning Kick Cafe proudly serves the local Macquarie Fields community, offering a fun experience for everyone and their families!</p>
         </section>
+
+        <section class="quick-info-grid" aria-label="Quick Information Dashboard">
+            <div class="info-card">
+                <h3>⏰Commuter Express Hours</h3>
+                <p><strong>Monday-Sunday:</strong> 7:30AM-4PM</p>
+                <span class="tag">Early Opening!</span>
+            </div>
+            
+            <div class="info-card">
+                <h3>Find us Fast</h3>
+                <p>Conveniently located near Glenquarie Town Centre, Macquarie Fields. Perfect stop before the train</p>
+                <a href="location.html" class="cta-link">View Map & Direction →</a>
+            </div>
+            
+            <div class="info-card">
+                <h3>Skip the Queue</h3>
+                <p>Heading to school or work? Browse our menu on the go and place your order ahead online</p>
+                <a href="order.html" class="cta-btn">Order Ahead Now</a>
+            </div>
+        </section>
     </main>
 
     <footer class="global-footer">
@@ -61,34 +83,6 @@
     <script src="script.js"></script>
 </body>
 </html>
-
-
-<section class="quick-info-grid" aria-label="Quick Information Dashboard">
-    <div class="info-card">
-        <h3>⏰Commuter Express Hours</h3>
-        <p><strong>Monday-Sunday:</strong> 7:30AM-4PM</P>
-            <span class="tag">Early Opening!</span>
-            
-            <div>
-            <div class="info-card">
-                <h3>Find us Fast</h3>
-                <p>Conveniently located near Glenquarie Town Centre, Macquarie Fields. Perfect stop before the train</p>
-                <a href="location.html" class= "cta-link" > View Map & Direction →</a>
-            </div>
-            <div class = "info-card"> 
-                <h3>Skip the Queue</h3>
-                <p>Heading to school or work? Browse our menu on the go and place your order ahead online</p>
-                <a href="order.html" class="cta-btn"> Order Ahead Now</a>
-            </div>
-        </section>
-            
-
-
-
-
-
-
-
 
 
 
