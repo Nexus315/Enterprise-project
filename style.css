@@ -330,3 +330,178 @@ body {
     font-size: 1.2rem;
     border-bottom: 1px solid #e5e5e5;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: hsl(0, 25%, 98%);
+    color: #2b2b2b;
+    line-height: 1.6;
+    padding-bottom: 80px;
+}
+
+.global-header {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header-logo {
+    max-height: 100px;
+    width: auto;
+    object-fit: contain;
+}
+
+.site-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #e67e22;
+    margin-top: 0.3rem;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: #f39c12;
+    background-color: #2c2c2c;
+}
+
+.about-page {
+    padding: 2rem 0;
+}
+
+.cafe-intro {
+    max-width: 800px;
+    margin: 2rem auto 3rem auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.cafe-intro h2 {
+    font-size: 2.2rem;
+    color: #1a1a1a;
+    margin-bottom: 1.2rem;
+    position: relative;
+    display: inline-block;
+}
+
+.cafe-intro h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #e67e22;
+    margin: 0.5rem auto 0 auto;
+    border-radius: 2px;
+}
+
+.cafe-intro p {
+    font-size: 1.15rem;
+    color: #444444;
+}
+
+.info-card {
+    background: #ffffff;
+    border-left: 4px solid #e67e22;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+.info-card h3 {
+    font-size: 1.35rem;
+    margin-bottom: 0.75rem;
+    color: #1a1a1a;
+}
+
+.info-card p {
+    font-size: 1rem;
+    color: #555555;
+    line-height: 1.7;
+}
+
+.global-footer {
+    background-color: #1a1a1a;
+    color: #b3b3b3;
+    text-align: center;
+    padding: 1.2rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.85rem;
+    z-index: 100;
+    border-top: 3px solid #e67e22;
+}
+
+@media (max-width: 768px) {
+    .global-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .logo-container {
+        align-items: center;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: center;
+    }
+
+    .nav-links a {
+        font-size: 0.85rem;
+        padding: 6px 10px;
+    }
+
+    .cafe-intro h2 {
+        font-size: 1.8rem;
+    }
+
+    .info-card {
+        padding: 1.5rem;
+    }
+}
