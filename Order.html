@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Ahead | Glenquarie Morning Kick Cafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="global-header">
+        <nav class="navbar">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="menu.html" class="nav-link">Menu</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="location.html" class="nav-link">Location</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="order.html" class="nav-link active">Order Ahead</a>
+            <a href="faq.html" class="nav-link">FAQ</a>
+            <a href="feedback.html" class="nav-link">Feedback</a>
+        </nav>
+    </header>
+
+    <main class="page-wrapper">
+        <h1 class="page-title">Order Ahead</h1>
+
+        <p class="page-description">
+            Save time during busy mornings by placing your order ahead. Fill out the form below and your order will be prepared before you arrive.
+        </p>
+
+        <form id="order-form" class="form-container">
+            <label for="customer-name">Full Name</label>
+            <input type="text" id="customer-name" name="customer-name" required>
+
+            <label for="customer-email">Email Address</label>
+            <input type="email" id="customer-email" name="customer-email" required>
+
+            <label for="order-item">Select Item</label>
+            <select id="order-item" name="order-item" required>
+                <option value="">Choose an item</option>
+                <option value="espresso">Freshly Brewed Espresso</option>
+                <option value="french-toast">Topical French Toast</option>
+                <option value="churros">Churros</option>
+                <option value="kids-meal">Kids Meal</option>
+            </select>
+
+            <label for="order-notes">Special Instructions (Optional)</label>
+            <textarea id="order-notes" name="order-notes" rows="4"></textarea>
+
+            <button type="submit" class="form-button">Place Order</button>
+        </form>
+    </main>
+
+    <footer class="global-footer">
+        <div class="footer-content">
+            <p>© 2026 Glenquarie Morning Kick Cafe</p>
+            <p>Open: Mon–Sun | 6:00 AM – 4:00 PM</p>
+            <div class="footer-links">
+                <a href="https://instagram.com" class="footer-link">Instagram</a>
+                <a href="https://facebook.com" class="footer-link">Facebook</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
