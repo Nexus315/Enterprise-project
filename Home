@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">x
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Glenquarie Morning Kick Cafe</title>
     <link rel="stylesheet" href="style.css">
@@ -77,9 +77,15 @@
     </main>
 
     <footer class="global-footer">
-        <p>&copy ; 2026 Morning Kick Cafe. All rights reserved.</p>
+        <div class="footer-content">
+            <p>© 2026 Glenquarie Morning Kick Cafe</p>
+            <p>Open: Mon–Sun | 6:00 AM – 4:00 PM</p>
+            <div class="footer-links">
+                <a href="https://instagram.com" class="footer-link">Instagram</a>
+                <a href="https://facebook.com" class="footer-link">Facebook</a>
+            </div>
+        </div>
     </footer>
-
     <script src="script.js"></script>
 </body>
 </html>
