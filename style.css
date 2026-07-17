@@ -879,3 +879,14 @@ body {
 .form-button:hover {
     background-color: #2e7d32;
 }
+html, body {
+    height: auto;
+    overflow-y: auto;
+}
+.location-page,
+.location-grid,
+.map-pane,
+.map-frame-container {
+    height: auto;
+    overflow: visible;
+}
