@@ -44,12 +44,73 @@
             <input type="email" id="customer-email" name="customer-email" required>
 
             <label for="order-item">Select Item</label>
-            <select id="order-item" name="order-item" required>
-                <option value="">Choose an item</option>
-                <option value="espresso">Freshly Brewed Espresso</option>
-                <option value="french-toast">Topical French Toast</option>
-                <option value="churros">Churros</option>
-                <option value="kids-meal">Kids Meal</option>
+           <select id="order-item" name="order-item" required>
+    <option value="">Choose an item...</option>
+
+    <optgroup label="🍳 Breakfast">
+        <option value="avocado-toast">Avocado Toast — $12.00</option>
+        <option value="eggs-on-toast">Eggs on Toast — $10.00</option>
+        <option value="bacon-egg-roll">Bacon &amp; Egg Roll — $9.50</option>
+        <option value="french-toast">French Toast — $14.00</option>
+        <option value="custom-omelette">Custom Omelette — $15.00</option>
+    </optgroup>
+
+    <optgroup label="🍔 Burgers">
+        <option value="classic-beef-burger">Classic Beef Burger — $15.00</option>
+        <option value="chicken-deluxe-burger">Chicken Deluxe Burger — $16.00</option>
+        <option value="veggie-burger">Veggie Burger — $14.00</option>
+        <option value="double-beef-stack">Double Beef Stack — $18.00</option>
+    </optgroup>
+
+    <optgroup label="🥪 Sandwiches &amp; More">
+        <option value="chicken-mayo-sandwich">Chicken &amp; Mayo Sandwich — $11.00</option>
+        <option value="ham-cheese-sandwich">Ham &amp; Cheese Sandwich — $10.00</option>
+        <option value="tuna-melt">Tuna Melt — $12.00</option>
+        <option value="blt">BLT — $13.00</option>
+        <option value="club-sandwich">Club Sandwich — $14.00</option>
+    </optgroup>
+
+    <optgroup label="🧀 Toasties">
+        <option value="ham-cheese-toastie">Ham &amp; Cheese Toastie — $9.00</option>
+        <option value="chicken-cheese-toastie">Chicken &amp; Cheese Toastie — $10.00</option>
+        <option value="veggie-toastie">Veggie Toastie — $9.00</option>
+        <option value="triple-cheese-melt">Triple Cheese Melt — $11.00</option>
+    </optgroup>
+
+    <optgroup label="🍩 Cheat Day Treats">
+        <option value="churros">Churros w/ Chocolate Dip — $8.00</option>
+        <option value="pancake-stack">Pancake Stack — $12.00</option>
+        <option value="waffles-ice-cream">Waffles w/ Ice Cream — $13.00</option>
+        <option value="brownie-plate">Brownie Plate — $7.50</option>
+    </optgroup>
+
+    <optgroup label="🍝 Mains">
+        <option value="creamy-chicken-pasta">Creamy Chicken Pasta — $17.00</option>
+        <option value="beef-lasagne">Beef Lasagne — $16.00</option>
+        <option value="loaded-fries">Loaded Fries — $12.00</option>
+        <option value="chicken-schnitzel">Chicken Schnitzel — $18.00</option>
+    </optgroup>
+
+    <optgroup label="🥗 Salads">
+        <option value="chicken-caesar-salad">Chicken Caesar Salad — $15.00</option>
+        <option value="garden-salad">Garden Salad — $12.00</option>
+        <option value="tuna-salad">Tuna Salad — $14.00</option>
+        <option value="mediterranean-salad">Mediterranean Salad — $15.00</option>
+    </optgroup>
+
+    <optgroup label="🍟 Fries">
+        <option value="classic-fries">Classic Fries — $6.00</option>
+        <option value="loaded-cheese-fries">Loaded Cheese Fries — $10.00</option>
+        <option value="spicy-fries">Spicy Fries — $7.00</option>
+        <option value="garlic-parmesan-fries">Garlic Parmesan Fries — $9.00</option>
+    </optgroup>
+
+    <optgroup label="👶 Kids Menu">
+        <option value="kids-nuggets-chips">Kids Nuggets &amp; Chips — $9.00</option>
+        <option value="kids-pasta">Kids Pasta — $8.50</option>
+        <option value="kids-toastie">Kids Toastie — $7.00</option>
+        <option value="kids-pancakes">Kids Pancakes — $8.00</option>
+    </optgroup>
             </select>
 
             <label for="order-notes">Special Instructions (Optional)</label>
@@ -65,9 +126,13 @@
             <p>Open: Mon–Sun | 6:00 AM – 4:00 PM</p>
             <div class="footer-links">
                 <a href="https://www.instagram.com/kick.morning/" class="footer-link">Instagram</a>
+                <img src="instagram-icon.png"  class="social-icon">
+            </a>
                 <a href="https://www.facebook.com/p/Morning-kick-100083038943565/" class="footer-link">Facebook</a>
+                <img src="facebook-icon.png"class="social-icon">
             </div>
         </div>
     </footer>
+     <script src="script.js"></script>
 </body>
 </html>
